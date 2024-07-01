@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root {
+    --maincolor: #0077ff;
+}
+@font-face{
+    font-family: "roobot";
+    src: url(../webfonts/Roboto-Medium.ttf);
+
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-image: linear-gradient(#0000006b, #0000008a), url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+
+.sp1 {
+    color: #000;
+    font-size: 18px;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sec1h {
+    font-size: 4rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.877);
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+}
+
+.navbar .container a,
+li {
+    margin-left: .3rem;
+    color: white;
+    font-size: 1rem;
+    font-family: "roobot" ;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.imo {
+    position: relative;
+
+}
+
+
+.innno {
+    position: relative;
+
+}
+
+.dro{
+    content: "";
+    width: 0rem;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 19px;
+    transition: .5s;
+
+}
+
+.innno:hover .dro {
+    width: 5rem;
+
+}
+
+.inn::after {
+    content: "";
+    width: 0rem;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 13px;
+    transition: .5s;
+}
+
+.imo:hover .inn::after {
+    width: 2.5rem;
+
+}
+
+.pch {
+    margin-top: 1.2rem;
+    font-size: 1.3rem;
+    color: #6d6d6d;
+}
+
+.afa::after {
+    content: "";
+    width: 6.5rem;
+    height: 3px;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 2.7rem;
+    left: .7rem;
+    border-radius: 40px;
+
+}
+
+.hff::after {
+    content: "";
+    width: 3rem;
+    height: 6px;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 6.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+}
+
+.afa4::after {
+    content: "";
+    width: 3rem;
+    height: 6px;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.afa6::after {
+    content: "";
+    width: 3rem;
+    height: 6px;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 9rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.afa7::after {
+    content: "";
+    width: 7rem;
+    height: 3px;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 2.8rem;
+    left: .9rem;
+
+}
+
+.afa7i::after {
+    content: "";
+    width: 7rem;
+    height: 3px;
+    background-color: var(--maincolor);
+    position: absolute;
+    top: 2.8rem;
+    left: .9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section2inner i {
+    font-size: 2rem;
+    background-color: #ffffff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px var(--maincolor);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+
+
+}
+
+.section2inner h3 {
+    margin: 1rem;
+}
+
+.section2inner:hover .icon1 {
+    background-color: var(--maincolor);
+    color: white;
+    box-shadow: 0px 0px 0px 10px #0077ff44;
+
+}
+
+.section3 {
+    background-image: linear-gradient(#0077ffb4, #0077ffa4), url(../img/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+.sec3item {
+    position: relative;
+
+
+}
+
+.sec3i {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    box-shadow: 0px 0px 0px 10px #ffffffc9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plsbac {
+    border-color: var(--maincolor) !important;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.plsb {
+    position: absolute;
+    top: -25px;
+    left: 1.5px;
+}
+
+.spc {
+    color: var(--maincolor);
+}
+
+.imgco .imgsce {
+    transition: 1s;
+}
+
+.sec4-item:hover .imgsce {
+    transform: scale(1.2);
+}
+
+.section5 {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(#0077ffb4, #0077ffa4), url(../img/overlay-bg.jpg);
+}
+
+.imgee {
+    width: 150px;
+
+}
+
+.inde1 {
+    position: relative;
+    top: 3rem;
+    border-radius: 50%;
+    width: 1rem !important;
+    height: 1rem !important;
+    background-color: rgb(255, 255, 255) !important;
+
+}
+
+.sec6lab {
+    background-color: #0078ff;
+    padding: .1rem .8rem;
+    border-radius: 4px;
+    margin-top: -1.8rem;
+    color: white;
+}
+
+.fotimm {
+    padding: 0px;
+    margin: 0;
+
+}
+
+.footimg {
+    width: 2rem;
+    border-radius: 50%;
+
+}
+
+.cloo i {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+    margin-top: 7px;
+    transform: translateX(50%);
+
+
+}
+
+.cloo p {
+    color: rgb(128, 128, 128);
+}
+
+.woe {
+    color: rgb(128, 128, 128);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section75 {
+    background-attachment: fixed;
+    height: 120%;
+    margin-top: 5rem;
+
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(#0077ffb4, #0077ffa4), url(../img/overlay-bg.jpg);
+}
+
+.spm {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.ionc {
+
+    color: var(--maincolor);
+}
+
+.iced {
+    font-size: 1.5rem;
+    margin: 1rem;
+    border: 2px;
+    border-color: #000000;
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px var(--maincolor);
+    transition: .5s;
+}
+
+.coni i:hover.iced {
+    background-color: var(--maincolor);
+    box-shadow: 0px 0px 0px 3px #479dff54;
+    color: white;
+
+}
+
+.s7bt {
+    color: #FFF;
+    border: none;
+    padding: .7rem 2.2rem;
+    background-color: var(--maincolor);
+
+
+}
+
+.sec8 {
+    background: #0062d3;
+    box-shadow: 0px 0px 3px 10px #0062d3;
+
+}
+
+.tty {
+    color: #fff !important;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 992px){
+    .nemsmd{
+        margin-top: 1rem;
+        margin-left: 0rem !important  ;
+        
+    }
+    .sp1{
+        padding: 0px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .section3{
+        padding: 2rem 0rem;
+        height: max-content;
+    }
+.nemsmd{
+    margin-top: 1rem;
+    margin-left: -2.5rem !important  ;
+    
+}
+.imgmd{
+    margin-left: -1rem;
+}
+}
